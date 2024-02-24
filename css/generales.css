@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: rgba(255, 255, 255, 0);
+    font-weight: normal;
+    font-family: "Playfair Display", serif;
+}
+
+.headerContent{
+    width: calc(100vw - 32px);
+    height: 100px;
+    padding-inline: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 2px 2px 0px rgb(0, 0, 0, 0.5);
+}
+
+.headerContent .titulo{
+    font-size: 34px;
+    text-transform: uppercase;
+}
